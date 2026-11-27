@@ -6,16 +6,16 @@
    ada, otomatis tampil placeholder. Atau ubah nilai "image".
    ============================================================ */
 const products = [
-  { n: ["Brosur", "Brochure"],            category: "offset",      priceFrom: 150000, image: "assets/products/brosur",       href: "/produk/brosur",       tags: "brosur flyer leaflet brochure" },
-  { n: ["Kartu Voucer", "Voucher Card"],  category: "digital",     priceFrom: 50000,  image: "assets/products/kartu-vocer",  href: "/produk/kartu-voucer", tags: "kartu voucer vocer voucher kupon" },
-  { n: ["Nota", "Invoice Pad"],           category: "offset",      priceFrom: 60000,  image: "assets/products/nota",         href: "/produk/nota",         tags: "nota invoice kwitansi faktur" },
-  { n: ["Packaging", "Packaging"],        category: "offset",      priceFrom: 200000, image: "assets/products/packaging",    href: "/produk/packaging",    tags: "packaging kemasan box dus" },
-  { n: ["Mug & Tumbler", "Mug & Tumbler"], category: "merchandise", priceFrom: 45000, image: "assets/products/mug-thumbler", href: "/produk/mug-tumbler",  tags: "merchandise mug tumbler thumbler gelas" },
-  { n: ["Kaos", "T-Shirt"],               category: "merchandise", priceFrom: 85000,  image: "assets/products/kaos",         href: "/produk/kaos",         tags: "merchandise kaos tshirt t-shirt" },
-  { n: ["Topi", "Cap"],                   category: "merchandise", priceFrom: 55000,  image: "assets/products/topi",         href: "/produk/topi",         tags: "merchandise topi cap hat" },
-  { n: ["Tote Bag", "Tote Bag"],          category: "merchandise", priceFrom: 40000,  image: "assets/products/totebag",      href: "/produk/totebag",      tags: "merchandise totebag tote bag tas" },
-  { n: ["Stiker", "Sticker"],             category: "digital",     priceFrom: 35000,  image: "assets/products/stiker",       href: "/produk/stiker",       tags: "stiker sticker label vinyl" },
-  { n: ["Kalender", "Calendar"],          category: "offset",      priceFrom: 75000,  image: "assets/products/kalender",     href: "/produk/kalender",     tags: "kalender calendar meja dinding" }
+  { n: ["Stiker", "Sticker"],             category: "digital",     priceFrom: 12000,  image: "assets/products/stiker",       href: "/produk/stiker",       tags: "stiker sticker label vinyl" },
+  { n: ["Brosur", "Brochure"],            category: "offset",      priceFrom: 15000, image: "assets/products/brosur",       href: "/produk/brosur",       tags: "brosur flyer leaflet brochure" },
+  { n: ["Kaos", "T-Shirt"],               category: "merchandise", priceFrom: 77000,  image: "assets/products/kaos",         href: "/produk/kaos",         tags: "merchandise kaos tshirt t-shirt" },
+  { n: ["Packaging", "Packaging"],        category: "offset",      priceFrom: 17000, image: "assets/products/packaging",    href: "/produk/packaging",    tags: "packaging kemasan box dus" },
+  { n: ["Kalender", "Calendar"],          category: "offset",      priceFrom: 46000,  image: "assets/products/kalender",     href: "/produk/kalender",     tags: "kalender calendar meja dinding" },
+  { n: ["Kartu Voucer", "Voucher Card"],  category: "digital",     priceFrom: 24000,  image: "assets/products/kartu-vocer",  href: "/produk/kartu-voucer", tags: "kartu voucer vocer voucher kupon" },
+  { n: ["Nota", "Invoice Pad"],           category: "offset",      priceFrom: 89000,  image: "assets/products/nota",         href: "/produk/nota",         tags: "nota invoice kwitansi faktur" },
+  { n: ["Mug & Tumbler", "Mug & Tumbler"], category: "merchandise", priceFrom: 27000, image: "assets/products/mug-thumbler", href: "/produk/mug-tumbler",  tags: "merchandise mug tumbler thumbler gelas" },
+  { n: ["Topi", "Cap"],                   category: "merchandise", priceFrom: 42000,  image: "assets/products/topi",         href: "/produk/topi",         tags: "merchandise topi cap hat" },
+  { n: ["Tote Bag", "Tote Bag"],          category: "merchandise", priceFrom: 37000,  image: "assets/products/totebag",      href: "/produk/totebag",      tags: "merchandise totebag tote bag tas" }
 ];
 
 /* GANTI FOTO TESTIMONI: assets/avatars/<avatar>.webp (opsional, default inisial) */

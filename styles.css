@@ -63,6 +63,7 @@ button,select,input{font:inherit;color:inherit}
 .cats button{background:none;border:0;border-left:1px solid rgba(100,100,130,.16);display:flex;flex-direction:column;align-items:center;gap:10px;padding:14px 8px;
   font-size:13px;font-weight:500;cursor:pointer;transition:color .2s,width .2s}
 .cats button:first-child{border-left:0}
+.cats .cl .short{display:none}
 .cats button:hover{color:var(--red);transform:translateY(-2px)}
 .cats button.on{color:var(--red)}
 
@@ -256,7 +257,10 @@ h2{margin:0;font-size:clamp(24px,3vw,30px);font-weight:700;letter-spacing:-.02em
   .mega-nav button,.mega-nav a{width:auto;white-space:nowrap;border:1px solid rgba(100,100,130,.18);border-radius:999px;padding:8px 14px;font-size:13px}.mega-nav button.on{border-color:var(--ink)}
   .mega-grid{grid-template-columns:repeat(3,1fr);gap:16px 8px}.mg-img{width:72px;height:72px}.mg{font-size:12.5px}
   .cats{grid-template-columns:repeat(6,1fr);padding:4px 0;border-radius:20px}
-  .cats button{min-width:0;padding:10px 2px;gap:6px;font-size:9.5px;line-height:1.25;text-align:center}.cats button .ic{width:18px;height:18px}
+  .cats button{min-width:0;padding:10px 1px;gap:6px;font-size:9.5px;line-height:1.25;text-align:center;justify-content:flex-start;align-items:center}
+  .cats button .ic{width:18px;height:18px;flex:none}
+  .cats .cl{display:block;width:100%;min-height:2.5em;text-align:center;overflow-wrap:normal;word-break:normal;hyphens:none}
+  .cats .cl .full{display:none}.cats .cl .short{display:inline}
   #btn-all{flex:none;white-space:nowrap;font-size:12px;padding:8px 12px;gap:6px;height:auto;min-height:0}#btn-all svg{width:13px;height:13px}
   .section{margin-top:52px}
   .franchise{padding:26px 22px;border-radius:28px;gap:20px}.fr-list{gap:18px 12px}.fr-ico{width:38px;height:38px;border-radius:12px}.fr-list b{font-size:12px}
